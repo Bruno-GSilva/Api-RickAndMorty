@@ -38,7 +38,6 @@ btnL.addEventListener('click',() => {
     lista.innerHTML = " ",
     getCharacters()
   )
-  console.log(value)
 })
 
 btnR.addEventListener('click',() => {
@@ -47,5 +46,4 @@ btnR.addEventListener('click',() => {
     lista.innerHTML = " ",
     getCharacters()
   )
-  console.log(value)
 })
