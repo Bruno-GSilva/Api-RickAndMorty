@@ -47,9 +47,7 @@ section > #lista {
   width: 100%;
   height: 100%;
   display: flex;
-  justify-content: center;
   align-items: center;
-
   overflow: hidden;
   overflow-x: visible;
 
@@ -60,6 +58,7 @@ section > #lista {
 section > #lista .card {
   scale: .6;
   min-width: 300px;
+  height: 500px;
   cursor: pointer;
   border: 3px solid black;
   border-radius: 10px;
@@ -73,7 +72,7 @@ section > #lista .card {
 
 section > #lista .card:hover {
   filter: grayscale(0);
-  scale: .7;
+  transform: translate(-0.6em, -0.6em);
 }
 section > #lista .card img {
   width: 100%;
@@ -97,4 +96,39 @@ section > #lista .card li {
 section > #lista .card li p {
   font-weight: bold;
   color:white
+}
+
+span{
+  display: flex;
+  margin: 30px 0;
+  gap: 30px;
+}
+
+button{
+  width: 100px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  border-radius: .2rem;
+  border: 3px solid black;
+  cursor: pointer;
+
+  box-shadow: .1rem .1rem black;
+  background-color: yellow;
+}
+button:hover{
+  transform: translate(-0.05em, -0.05em);
+  box-shadow: 0.15em 0.15em;
+}
+
+button > img{
+  width: 50px;
+}
+
+@media (max-width: 599px) {
+  section > #lista .card{
+    scale: .8;
+  } 
 }
