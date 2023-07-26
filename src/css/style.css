@@ -35,13 +35,7 @@ section {
 
 h1 {
   font-size: 64px;
-  background-image: url(https://rare-gallery.com/uploads/posts/340156-Rick-and-Morty-Cartoon-Morty-Smith-Rick-Sanchez-Night-Sky-Space-Stars.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  -webkit-background-clip: text;
-  color: rgba(0, 0, 0, 0);
+  color: black;
 }
 section > #lista {
   width: 100%;
